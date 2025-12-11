@@ -1,4 +1,4 @@
-git+https://github.com/shvdev1/PS-ML-protos.git@main#egg=grpc_protos
+grpc_protos==1.0.0
 grpcio==1.76.0
 grpcio-tools==1.76.0
 protobuf==6.33.2
