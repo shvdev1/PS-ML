@@ -1,4 +1,4 @@
-grpc_protos==1.0.0
+grpc-protos @ git+https://github.com/shvdev1/PS-ML-protos.git@c1935552fa89406df9839eae9ad95d38cd2062c6
 grpcio==1.76.0
 grpcio-tools==1.76.0
 protobuf==6.33.2
