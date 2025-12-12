@@ -11,9 +11,7 @@ def run_client():
         
         # Test cases
         test_inputs = [
-            "hello world",
-            "grpc is awesome",
-            "python text processing"
+            "What is written on image?",
         ]
         
         logging.info("TextProcessor gRPC Client")
