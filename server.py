@@ -6,8 +6,8 @@ from grpc_protos import text_processor_pb2_grpc
 
 
 def process(text):
-    """Mocked process function that transforms text."""
-    return text.upper() + " [PROCESSED]"
+    from image_handler import process_image
+    return process_image("test/img/image.png", text)
 
 
 class TextProcessorServicer(text_processor_pb2_grpc.TextProcessorServicer):
